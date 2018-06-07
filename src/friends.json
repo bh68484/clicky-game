@@ -1,61 +1,62 @@
 [
   {
-    "name": "SpongeBob",
-    "image": "require('./public/images/be-more-kind.jpg')"
-  },
-  {
-    "name": "Mr. Krabs",
+    "name": "Be More Kind",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/be-more-kind.jpg?raw=true"
   },
   {
-    "name": "Squidward",
+    "name": "Bromst",
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/bromst.jpg?raw=true"
   },
   {
-    "name": "Dexter",
+    "name": "Hello Rockview",
     "image":
-      "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/hello-rockview.jpg?raw=true"
   },
   {
-    "name": "Courage",
+    "name": "In/Casino/Out",
     "image":
-      "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/in-casino-out.jpg?raw=true"
   },
   {
-    "name": "Doug Funnie",
+    "name": "In The Throes",
     "image":
-      "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/in-the-throes.jpg?raw=true"
   },
   {
-    "name": "Bugs Bunny",
+    "name": "Pixel Revolt",
     "image":
-      "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/pixel-revolt.jpg?raw=true"
   },
   {
-    "name": "Johnny Bravo",
+    "name": "Something to Write Home About",
     "image":
-      "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/something-to-write-home-about.jpg?raw=true"
   },
   {
-    "name": "Tommy Pickles",
+    "name": "Sound of Silver",
     "image":
-      "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/sound-of-silver.jpg?raw=true"
   },
   {
-    "name": "Rocko",
+    "name": "Strange Trails",
     "image":
-      "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/strange-trails.jpg?raw=true"
   },
   {
-    "name": "Captain Planet",
+    "name": "Turn It Up",
     "image":
-      "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/turn-it-up.jpg?raw=true"
   },
   {
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!"
+    "name": "We Shall All Be Healed",
+    "image":
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/we-shall-all-be-healed.jpg?raw=true"
+  },
+  {
+    "name": "Winter Wheat",
+    "image":
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/winter-wheat.jpg?raw=true"
   }
 ]
