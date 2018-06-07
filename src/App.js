@@ -1,11 +1,28 @@
-import React from "react";
+import React, { Component } from "react";
+import Wrapper from "./components/Wrapper";
 import Jumbotron from "./components/Jumbotron";
+import Gamecard from "./components/Gamecard";
+import friends from "./friends.json";
+
 import "./App.css";
 
-const App = () => (
-  <div>
-    <Jumbotron />
-  </div>
-);
+class App extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    friends
+  };
+
+  // Map over this.state.friends and render a FriendCard component for each friend object
+  render() {
+    return (
+      <Wrapper>
+        <Jumbotron />
+        {this.state.friends.map(friend => (
+          <Gamecard name={friend.name} image={friend.image} />
+        ))}
+      </Wrapper>
+    );
+  }
+}
 
 export default App;
