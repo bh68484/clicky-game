@@ -15,12 +15,14 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
+      <div>
         <Jumbotron />
-        {this.state.friends.map(friend => (
-          <Gamecard name={friend.name} image={friend.image} />
-        ))}
-      </Wrapper>
+        <Wrapper>
+          {this.state.friends.map(friend => (
+            <Gamecard name={friend.name} image={friend.image} />
+          ))}
+        </Wrapper>
+      </div>
     );
   }
 }
