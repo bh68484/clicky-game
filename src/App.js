@@ -9,14 +9,15 @@ import "./App.css";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    friends,
+    score: 0
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <div>
-        <Jumbotron />
+        <Jumbotron score={this.state.score} />
         <Wrapper>
           {this.state.friends.map(friend => (
             <Gamecard name={friend.name} image={friend.image} />
