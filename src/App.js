@@ -2,19 +2,19 @@ import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Jumbotron from "./components/Jumbotron";
 import Gamecard from "./components/Gamecard";
-import friends from "./friends.json";
+import albums from "./albums.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.albums to the albums json array
   state = {
-    friends,
+    albums,
     score: 0,
     highScore: 0
   };
 
   handleClick = (id, clicked) => {
-    const shuffleAlbums = this.state.friends;
+    const shuffleAlbums = this.state.albums;
 
     if (clicked) {
       shuffleAlbums.forEach((image, index) => {
@@ -43,19 +43,19 @@ class App extends Component {
     }
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.albums and render a albumCard component for each album object
   render() {
     return (
       <div>
         <Jumbotron score={this.state.score} highScore={this.state.highScore} />
         <Wrapper>
-          {this.state.friends.map(friend => (
+          {this.state.albums.map(album => (
             <Gamecard
-              key={friend.id}
-              id={friend.id}
-              clicked={friend.clicked}
+              key={album.id}
+              id={album.id}
+              clicked={album.clicked}
               handleClick={this.handleClick}
-              image={friend.image}
+              image={album.image}
             />
           ))}
         </Wrapper>
