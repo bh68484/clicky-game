@@ -1,74 +1,87 @@
 [
   {
     "id": 1,
-    "name": "Be More Kind",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/be-more-kind.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/be-more-kind.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 2,
-    "name": "Bromst",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/bromst.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/bromst.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 3,
-    "name": "Hello Rockview",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/hello-rockview.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/hello-rockview.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 4,
-    "name": "In/Casino/Out",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/in-casino-out.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/in-casino-out.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 5,
-    "name": "In The Throes",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/in-the-throes.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/in-the-throes.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 6,
-    "name": "Pixel Revolt",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/pixel-revolt.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/pixel-revolt.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 7,
-    "name": "Something to Write Home About",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/something-to-write-home-about.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/something-to-write-home-about.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 8,
-    "name": "Sound of Silver",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/sound-of-silver.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/sound-of-silver.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 9,
-    "name": "Strange Trails",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/strange-trails.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/strange-trails.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 10,
-    "name": "Turn It Up",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/turn-it-up.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/turn-it-up.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 11,
-    "name": "We Shall All Be Healed",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/we-shall-all-be-healed.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/we-shall-all-be-healed.jpg?raw=true",
+    "clicked": false
   },
   {
     "id": 12,
-    "name": "Winter Wheat",
+
     "image":
-      "https://github.com/bh68484/clicky-game/blob/master/public/images/winter-wheat.jpg?raw=true"
+      "https://github.com/bh68484/clicky-game/blob/master/public/images/winter-wheat.jpg?raw=true",
+
+    "clicked": false
   }
 ]

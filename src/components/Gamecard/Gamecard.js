@@ -3,8 +3,12 @@ import "./Gamecard.css";
 
 const Gamecard = props => (
   <div className="card">
-    <div className="img-container">
-      <img alt={props.name} src={props.image} />
+    <div
+      className="img-container"
+      key={props.id}
+      onClick={() => props.handleClick(props.id, props.clicked)}
+    >
+      <img id={props.name} src={props.image} alt={props.name} />
     </div>
   </div>
 );

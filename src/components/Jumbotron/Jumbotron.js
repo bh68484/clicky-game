@@ -7,10 +7,12 @@ class Jumbotron extends Component {
       <div className="jumbotron">
         <h3>Clicky Game!</h3>
         <p>
-          Click on an image to earn points, but don't click on any more than
-          once!
+          "Click on an album cover to earn points, but don't click on any more
+          than once!"
         </p>
-        <p>Score: {this.props.score}</p>
+        <p>
+          Score: {this.props.score} || High Score: {this.props.highScore}
+        </p>
       </div>
     );
   }
